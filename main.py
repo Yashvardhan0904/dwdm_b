@@ -23,9 +23,19 @@ def home():
     return {"message": "ML API running 🚀"}
 
 
+@app.head("/")
+def home_head():
+    return
+
+
 @app.get("/health")
 def health():
     return {"status": "ok"}
+
+
+@app.head("/health")
+def health_head():
+    return
 
 
 @app.get("/symptoms")
