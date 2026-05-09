@@ -2,7 +2,7 @@ fastapi==0.115.0
 uvicorn==0.30.6
 pandas==2.2.3
 scikit-learn==1.6.1
-numpy==2.2.0
+numpy==1.26.4
 xgboost==2.0.3
 python-dotenv==1.0.1
 catboost==1.2.7
